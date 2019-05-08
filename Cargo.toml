@@ -1,0 +1,21 @@
+[package]
+name = "citeman"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+uuid = "0.7.4"
+directories = "1.0.2"
+chrono = "0.4.6"
+error-gen = "0.1.0"
+read-human = "0.1.1"
+diesel = { version = "1.4.2", default-features = false, features = ["sqlite"] }
+log = "0.4.6"
+pretty_env_logger = "0.3.0"
+clap-verbosity-flag = "0.2.0"
+structopt = "0.2.15"
+which = "2.0.1"
+failure = "0.1.5"
+
+
