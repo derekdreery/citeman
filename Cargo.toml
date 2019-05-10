@@ -17,5 +17,8 @@ clap-verbosity-flag = "0.2.0"
 structopt = "0.2.15"
 which = "2.0.1"
 failure = "0.1.5"
+diesel_migrations = "1.4.0"
+reqwest = "0.9.16"
+serde = { version = "1.0.91", features = ["derive"] }
 
 

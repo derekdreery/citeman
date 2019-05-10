@@ -2,6 +2,8 @@ use error_gen::ErrorGen;
 use std::{io, path::PathBuf, str::FromStr};
 use uuid::Uuid;
 
+mod crossref;
+
 /// The generic document record
 #[derive(Debug)]
 pub struct Document {
